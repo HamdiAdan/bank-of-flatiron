@@ -1,0 +1,11 @@
+{
+  "name": "bank-of-flatiron",
+  "version": "1.0.0",
+  "description": "This React application allows users to view, add, and search bank transactions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
