@@ -30,7 +30,7 @@ function AddTransactionForm({ onAddTransaction }) {
       },
       body: JSON.stringify(transactionData),
     };
-    fetch(`http://localhost:6001/transactions`, fetchPOSTOptions)
+    fetch(`http://localhost:3000/transactions`, fetchPOSTOptions)
       .then((res) => res.json())
       .then((newTransaction) => onAddTransaction(newTransaction));
 
